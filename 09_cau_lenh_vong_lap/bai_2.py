@@ -27,5 +27,11 @@ for k in range(n):
 
 # In kết quả
 print(f"S1 = {S1}, S2 = {S2}, S3 = {S3}")
+ 
+
+
+
+
+
 
 
