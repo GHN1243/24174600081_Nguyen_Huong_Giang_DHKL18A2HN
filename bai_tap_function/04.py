@@ -1,8 +1,11 @@
 # viết hàm kiểm tra một số đó phải số nguyên tố hay không
-def is_prime(n):
-    if n <= 1:
+def kiem_tra_so_chinh_phuong(n):
+    if n < 0:
         return False
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
+    can = int(n**1/2)
+    return can*can == n 
+n = int(input("Nhap vao di: "))
+if kiem_tra_so_chinh_phuong(n):
+    print("Đây là số chính phươngphương")
+else:
+    print('Đây không phải số chính phương ')

@@ -2,7 +2,7 @@
 
 import math
 
-def is_perfect_square(n):
+def kiem_tra_so_chinh_phuong(n):
     if n < 0:
         return False
     sqrt_n = int(math.sqrt(n))

@@ -1,6 +1,6 @@
 # viết hàm kiểm tra một số đó phải số hoàn hảo hay không
 
-def is_perfect_number(n):
+def kiem_tra_so_hoan_hao(n):
     if n <= 1:
         return False
     sum_of_divisors = 0
