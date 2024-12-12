@@ -13,3 +13,4 @@ B.sort(reverse=True)
 
 print("Danh sách A (số lẻ nhỏ hơn n):", A)
 print("Danh sách B (số chẵn nhỏ hơn n):", B)
+

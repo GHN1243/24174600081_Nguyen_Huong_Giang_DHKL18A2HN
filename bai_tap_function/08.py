@@ -1,0 +1,1 @@
+# viết hàm tìm các ước của một số nguyên
